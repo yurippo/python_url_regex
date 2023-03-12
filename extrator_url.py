@@ -239,7 +239,19 @@ print(extrator_url == extrator_url2)
 #Agente aprendeu um pouco tbm sobre o fatiamento de URLs e como eles geram uma nova URL sem modificar
 #a String original e com isso agente aprendeu mais tabem sobre a imutabilidade de Strings do Python
 #Tambem vimos que a classe String oferece diversos metodos e que agente pode consultar a documentacao
-#Ou inspecionar 
+#Ou inspecionar a propria classe usando um editor de texto como o PyCharm ou o VS Code pra saber
+#quais sao estes metodos e o que eles fazem
+#tbm pegamos o nosso codigo que estava nao muito estruturado e extraimos ele e construimos uma classe
+#com a responsabilidade de extrair os valores de uma URL utilizando boas praticas de orientacao a objetos
+#Tambem aprendemos sobre expressoes regulares our Regex pra verificar se uma String tem um determinado
+#padrao dentro dela ou se uma String esta de acordo com certo padrao
+#e agente utilizou isso pra melhorar a nossa validacao de URL
+#por fim aprendemos mais sobre metodos especiais do Python e como eles funcionam por baixo dos panos
+#metodos que comecam com dois __ e terminam com __
+#como o __init__ o __eq__ e tbm o metodo __len__ por exemplo
+#e muito importante fazer todos os exercicios e challenges do curso
+#e usar o forum pra perguntar e responder perguntas pra fortalecer meu conhecimento
+
 
 
 # Métodos especiais são chamados pelo próprio interpretador Python de acordo com alguma instrução
