@@ -134,8 +134,81 @@
 #O legal de comecar aprendendo o Flask eh vc consegue ir fazendo ele crescer o seu projeto crescer de acordo com a sua 
 #necessidade entao se vc nao precisar mexer com banco de dados vc so precisar de um endpoint sei la que faz alguma conta
 # e te retorna alguma coisa vc consegue comecar do pequeno mas se vc quiser juntar com um banco de dados vc consegue
-#procurar uma biblioteca que integra com banco de dados vc consegue fazer a sua propria integracao com o banco de dados
-# 
+#procurar uma biblioteca que integra com banco de dados ou vc consegue fazer a sua propria integracao com o banco de dados
+# escolher o banco de dados que vc quer e integrar no seu end point ai vc vai crescendo o seu projeto sem muita pressa
+#vc consegue focar o seu estudo onde vc achar mais interessante
+#Debora usava muito Flask em ciencia de dados e era basicamente precisava de um endpoint que recebia dados e guardava esses
+#dados direto no banco de dados e ele era bem simples nao se precisava de um framework tao robusto quanto o Django
+#pq o Django eh uma basuca ele eh gigante deixa vc criar interface web traz um monte de funcionalidade que vc nao
+#necessariamente precisa e logico vc consegue configurar para nao usar todas ao mesmo tempo mais eh isso ele eh massivo
+#pra quem ta comecando agora uma dica eh comecar com Flask e depois ir pra Django pra ateh ver as diferencas
+#com o que te da mais coisa depois
+#o Flask vai me dar web e renderizacao de paginas html ja o Django vai me dar um monte de coisa que vai me ajudar
+#com um monte de coisa que eu posso querer
+#o que eh comum uma pessoa veio de data science aprendeu um pouco tem um modelo que treinei preditivo quero colocar
+#isso na web colocar isso no Flask 2 palitos carrego um modelo no load coloca um metodo que recebe os parametros
+#e devolve o resultado e acabou com 10 linhas de codigo vc tem isso escalar e etc e outros quinhentos 
+#mas vc tem isso com 10 linhas de codigo la 
+#a quero fazer um CRUD um cadastro de alguma coisa boa sorte no Flask vc vai ter muito mais trabalho 
+#no Django saiu da caixinha ta la a classe e as coisas acontecendo magicamente com toda a infrastrutura de Admin
+#que vc vai quere pra debugar coisas e etc
+#entao se vc aprendeu um modelo e quer colocar isso pra testar no Flask e 2 segundos
+# se vc quer fazer alguma coisa palpavel rapido ou vc quer aprender com mais profundidade
+#o Django te da as coisas prontas pra fazer rapidinho em 2 palitos mas ao mesmo tempo esconde coisas
+#vem muita coisa abstraida  por debaixo dos panos por isso as vezes mais dificil de vc absorver todos os conceitos
+#ai vai da pessoa tem pessoas que aprendem mais indo profundamente nas coisas e fazendo as coisas elas mesmas
+#tem gente que aprende mais tendo um negocio pronto la e depois desconstruindo
+#o Rails foi o primeiro Framework que se populazizou que fazia tudo tinha todas as ferramentas tudo ali tudo pronto
+#rapidamente vc cria algo
+#vale a pena conecer um pouco de Flask e Django e depois se aprofundar em um que queira mais
+#pra quem ta no nivel de fazer as suas proprias APIs e testando elas existe um site chamado
+#pythonanywhere ele eh muito bom pq te possibilita usar servidores deles de graca pra vc subir as suas aplicacoes
+#Django, Flask e tudo mais ou invez de usar um cloud e ter que configurar ele ja ta pronto ele eh feito pra Python
+#vc diz pros seus colegas entra ai nesse site fui eu que fiz de uma forma bem rapida
+#agora em fundamentos mais avancados da linguagem hj o Python possibilita usar tipagem estatica das variaveis
+#e nesses casos elas nao mudam mais
+#depois que agente ja ta trabalhando na web, depois que eu ja fiz um projeto opa chegou a hora de eu dar um passo alem
+#e entender coisas que estao ai no fundamento
+#legal ver codigo que eu criei no comeco e melhorar ele e ver o quanto eu avancei
+#o ducktyping do python impede de quebrar as coisas por default
+#no python mais avancado estudar o que sao decorators e como criar os meus proprios decorators funcoes que vao envelopar outas
+#funcoes e fazer coisas com elas antes delas serem executadas
+#primeiro passo quero fazer as coisas acontecerem e ta funcionando e entao quero fazer as coisas cada vez melhores
+#e entender melhor o que ta acontecendo por traz da linguagem e ai vc vai aprender os recursos que sao usados pelas
+#bibliotecas que agente usa e fica a dica ler codigo de outras pessoas exemplo um rapaz ta criando a primeira API dele
+#em Flask fez funcionar em um arquivo poucas linhas de codigo tava funcionando e depois como faco isso melhor
+#ler codigo de outras pessoas pra aprender sobre padrao de codigo
+#no inicio vc so quer saber de fazer as coisas acontecerem depois que vc comeca pensar em padrao
+#Seguir a PEP 8  padrao de codigo Python que vale para o mundo todo qualquer dev python que olhar pra aquele codigo vai
+#entende-lo mais rapido sao exemplo de codigo Pythonicos que a comunidade em geral costuma seguir
+#Um passo muito legal colocar essas coisas em um container pra fazer o deploy e entender um pouquinho da arquitetura de microservicos
+#criar a minha API rest colocar num container e fazer o deploy na cloud entao entender arquitetura microservicos, de cloud
+# e de REST tbm faz muito sentido tem a parte de levantar servidores e colocar o codigo la
+#outro conhecimento legal tbm e conhecer de Args & Kwargs que sao parametros que podemos declarar nas nossas funcoes de Python
+#isso vai explicar que raios sao aquelas estrelinhas e poder muito grande do que agente consegue fazer com as nossas funcoes
+#fazer o codigo ficar melhor tbm
+#tanto padroes funcionais como orientados a objetos vao aparecer no dia a dia do Python
+#pesquisar como criar lambdas no python que nada mais sao que funcoes sem nome saber qual eh a sintaxe e procurar sobre um
+#negocio que se chama clojures basicamente funcoes que dentro dela tem outra funcao
+#que eh soh usada no escopo daquela funcao ou que eh retornada por aquela funcao
+#o jupiter e uma forma de programar que eh um caderno de anotacoes vc anota diversos codigos Python que vc quer executar
+#Dica se vc for ver qualquer linguagem de programacao pela primeira vez ou lib procura por NOME_DA_LIB CHEAT SHEET 
+#no google um guia de truques vai me trazer um panorama de quais sao as funcionalidades mais usadas daquela linguagem
+#daquela lib pra mim comecar por elas pq provavelmente vao ser as que vou mais usar
+#achar python cheat sheet
+
+
+my_list = ["apple", "banana", "cherry"]
+
+my_list.append(1)
+
+print(my_list[-1])
+
+my_list.pop()
+
+print(my_list)
+
+
 
 
 
