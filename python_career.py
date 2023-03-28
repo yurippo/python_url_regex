@@ -211,8 +211,24 @@ print(my_list)
 
 
 
+new_list = [1,4,6,7]
 
+print(new_list)
 
+del new_list[0]
+
+print(new_list)
+
+if 1 not in new_list:
+    print("FUNCIONOU")
+
+value = 6
+
+if value in new_list:
+    new_list.remove(value)
+    print(new_list)
+else:
+    print(f"{value} is not in new_list")
 
 
 
